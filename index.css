@@ -41,7 +41,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 60rem;
-    background-image: url('/resources/graduation.jpg');
+    background-image: url('https://github.com/spectrumcoder/aspire/blob/main/resources/graduation.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
