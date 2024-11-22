@@ -1,0 +1,108 @@
+/* universal style */
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1rem 1rem;
+    background-color: #f8f7ff;
+    color: #0e131f;
+}
+
+/* header style */
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d8d8ff;
+}
+
+.header h4 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1rem;
+}
+
+.navbar a {
+    color: #0e131f;
+} 
+
+.navbar li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0rem;
+}
+
+/* aspire box */
+.aspire-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60rem;
+    background-image: url('./resources/graduation.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.aspire-box h1 {
+    font-size: 3.75rem;
+}
+
+.aspire-box h4 {
+    font-size: 1.75rem;
+}
+
+/* impact section */
+.impact-title {
+    text-align: center;
+}
+
+.impact-title h3 {
+    font-size: 2rem;
+}
+
+.impact-title h5 {
+    font-size: 1.15rem;
+}
+
+
+.impact-types {
+    width: 100%;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+/* post work box */
+.post-work-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d8d8ff;
+}
+
+.post-work-box img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    height: 30rem;
+}
+
+/* reflection section */
+.reflection-title {
+   text-align: center;
+   font-size: 2rem;
+}
+
+/* apply section */
+.apply-box {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: #d8d8ff;
+}
